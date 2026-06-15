@@ -22,3 +22,15 @@ variable "service_account_email" {
   description = "Service Account email for Cloud Run"
   type        = string
 }
+
+variable "cpu" {
+  description = "CPU limit for Cloud Run"
+  type        = string
+  default     = "1"
+}
+
+variable "memory" {
+  description = "Memory limit for Cloud Run"
+  type        = string
+  default     = "512Mi"
+}

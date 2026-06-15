@@ -25,3 +25,15 @@ variable "mcp_service_name" {
   type        = string
   default     = "gcp-mcp-server"
 }
+
+variable "cloud_run_cpu" {
+  description = "CPU limit for Cloud Run"
+  type        = string
+  default     = "1"
+}
+
+variable "cloud_run_memory" {
+  description = "Memory limit for Cloud Run"
+  type        = string
+  default     = "512Mi"
+}

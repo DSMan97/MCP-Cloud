@@ -12,4 +12,6 @@ module "cloud_run" {
   image_url             = var.image_url
   service_name          = var.mcp_service_name
   service_account_email = module.iam.service_account_email
+  cpu                   = var.cloud_run_cpu
+  memory                = var.cloud_run_memory
 }
