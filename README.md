@@ -72,6 +72,13 @@ To interact with the deployed MCP server locally, development teams must use a s
 
    *Note: For a more seamless local experience, you can run a local proxy that injects the authentication headers automatically.*
 
+## IDE Configuration
+
+For detailed instructions on how to integrate the MCP servers with your favorite IDE, please refer to the documentation in the `gcp-mcp-server` directory:
+
+- **JetBrains (PyCharm, IntelliJ, etc.):** [English](gcp-mcp-server/docs/JETBRAINS-SETUP-EN.md) | [Spanish](gcp-mcp-server/docs/JETBRAINS-SETUP-ES.md)
+- **VS Code:** [English](gcp-mcp-server/docs/VSCODE-SETUP-EN.md) | [Spanish](gcp-mcp-server/docs/VSCODE-SETUP-ES.md)
+
 ---
 
 *Note: More cloud providers and features coming soon!*
