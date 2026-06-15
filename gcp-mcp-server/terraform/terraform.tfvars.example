@@ -1,0 +1,5 @@
+project_id         = "your-project-id"
+region             = "europe-west3"
+image_url          = "gcr.io/your-project-id/gcp-mcp-server:latest"
+service_account_id = "gcp-mcp-server-sa"
+mcp_service_name   = "gcp-mcp-server"
